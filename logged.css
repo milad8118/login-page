@@ -1,0 +1,38 @@
+html {
+    background-image: linear-gradient(to bottom right, rgb(54, 145, 247), #9bee52, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    background-repeat: no-repeat;
+    position: relative;
+    animation: backgradient 10s ease-in-out infinite;
+}
+
+@keyframes backgradient {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 97vh;
+
+}
+
+p {
+    border: 1px solid white;
+    font-size: 40px;
+    padding: 50px 85px;
+    color: #fff;
+}

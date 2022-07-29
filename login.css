@@ -1,0 +1,116 @@
+body {
+
+    background-image: linear-gradient(to bottom right, rgb(54, 145, 247), #9bee52, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    background-repeat: no-repeat;
+    position: relative;
+    animation: backgradient 10s ease-in-out infinite;
+}
+
+@keyframes backgradient {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+
+}
+
+
+p.top-text {
+    margin: 20px 15px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #5E5E5E;
+    position: relative;
+    top: 25px;
+
+}
+
+span.login {
+    color: #337ED9;
+}
+
+div.main-container {
+    background-color: white;
+    position: relative;
+    top: 170px;
+    left: 40%;
+    text-align: center;
+    height: 436px;
+    width: 380px;
+    border-style: none;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input::placeholder {
+    font-size: 15px;
+
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    border: none;
+    border-bottom: 2px solid #337ED9;
+    padding: 20px 5px;
+    width: 304px;
+    outline: none;
+
+}
+
+input[type=submit] {
+    width: 304px;
+    height: 40px;
+    background-image: linear-gradient(to right, rgba(54, 145, 247, 1), rgba(54, 145, 247, 0.6));
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-image: linear-gradient(to left, rgba(54, 145, 247, 1), rgba(54, 145, 247, 0.6));
+    transition: 0.3s;
+
+}
+
+input:focus {
+    border: none;
+    border-bottom: 3px solid #337ED9;
+    outline: none;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+a.forgot-link {
+    color: black;
+
+}
+
+a,
+span.create-text {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 25px 0px;
+    position: relative;
+    top: 10px;
+}
+
+span.create-text,
+a.create-link {
+    position: relative;
+    top: 15px;
+}
